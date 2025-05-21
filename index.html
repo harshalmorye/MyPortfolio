@@ -3,69 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Alchemist - Professional Video Editor</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Video Alchemist - Jimmy Turner</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Jimmy Turner</h1>
-        <h2>Professional Video Editor</h2>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <div class="hero">
-            <p>Making Your Videos Look More Cool</p>
-            <button>Let's Talk</button>
+        <div class="navbar">
+            <h1>VideoAlchemist</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
-    </section>
+        <div class="hero">
+            <div class="hero-text">
+                <h2>Jimmy Turner</h2>
+                <h1>Professional Video Editor</h1>
+                <p>Making Your Videos Look More Cool.</p>
+                <a href="#contact" class="btn">Let's Talk</a>
+            </div>
+            <div class="hero-img">
+                <!-- Add image or illustration here -->
+            </div>
+        </div>
+    </header>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I transform ordinary footage into extraordinary visual experiences.</p>
+        <p>Welcome To The Cinematic Realm Of Jimmy, Where Creativity Meets Technology To Craft Visually Stunning Narratives.
+           With A Passion For Storytelling And A Keen Eye For Detail, I Embark On A Journey To Transform Ordinary Footage into Extraordinary Visual Experiences.
+        </p>
         <div class="services">
-            <p>Podcast Editing</p>
-            <p>Vlogs Editing</p>
-            <p>Cash Cow Editing</p>
-            <p>Reels Editing</p>
+            <span>Podcast Edit</span>
+            <span>Vlogs Editing</span>
+            <span>Cash Cow Editing</span>
+            <span>Reels Editing</span>
         </div>
     </section>
 
     <section id="portfolio">
         <h2>My Best Edits</h2>
-        <div class="edits">
-            <div class="edit"><img src="cash-cow.jpg" alt="Cash Cow"><button>Play</button></div>
-            <div class="edit"><img src="reel.jpg" alt="Reel"><button>Play</button></div>
-            <div class="edit"><img src="vlog.jpg" alt="Vlog"><button>Play</button></div>
+        <div class="video-gallery">
+            <div class="video">
+                <video controls poster="cashcow.jpg"></video>
+                <p>Cash Cow</p>
+            </div>
+            <div class="video">
+                <video controls poster="reel.jpg"></video>
+                <p>Reel</p>
+            </div>
+            <div class="video">
+                <video controls poster="vlog.jpg"></video>
+                <p>Vlog</p>
+            </div>
         </div>
     </section>
 
     <section id="testimonials">
         <h2>Testimonials</h2>
-        <p>Marcus: Perfect communication and skills.</p>
-        <p>Peter: Understood all requirements perfectly.</p>
-        <p>Jane: Great to work with—highly recommended!</p>
+        <div class="testimonials">
+            <div class="testimonial">
+                <h3>Marcus</h3>
+                <p>Perfect Communication And Exceptional Skills. This Guy Is King.</p>
+            </div>
+            <div class="testimonial">
+                <h3>Peter</h3>
+                <p>Did A Great Job. Understood All The Requirements.</p>
+            </div>
+            <div class="testimonial">
+                <h3>Jane</h3>
+                <p>Jimmy Was Wonderful To Work With. Will Definitely Hire Him Again.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>I Am Ready To Consult You</h2>
+        <form>
+            <input type="text" placeholder="My Name Is">
+            <input type="text" placeholder="I Am Interested In">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> +92 455 478 112</p>
+            <p><strong>Address:</strong> Defense Phase 3, Lahore Pakistan</p>
+            <p><strong>Email:</strong> videoeditor@gmail.com</p>
+        </div>
     </section>
 
     <footer>
-        <h2>Ready for Consultation</h2>
-        <form>
-            <input type="text" name="name" placeholder="My Name Is">
-            <input type="text" name="interest" placeholder="I am interested in">
-            <textarea name="message" placeholder="Message"></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <p>+92 455 478 112</p>
-        <p>Defense Phase 3, Lahore Pakistan</p>
-        <p>videoeditor@gmail.com</p>
+        <a href="#top" class="go-top">Go Back To The Top</a>
     </footer>
 </body>
 </html>
