@@ -11,7 +11,7 @@
         <div class="navbar">
             <h1>VideoAlchemist</h1>
             <nav>
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#portfolio">Portfolio</a>
                 <a href="#testimonials">Testimonials</a>
@@ -22,23 +22,23 @@
             <div class="hero-text">
                 <h2>Jimmy Turner</h2>
                 <h1>Professional Video Editor</h1>
-                <p>Making Your Videos Look More Cool.</p>
+                <p>Making your videos look cooler.</p>
                 <a href="#contact" class="btn">Let's Talk</a>
             </div>
             <div class="hero-img">
-                <!-- Add image or illustration here -->
+                <img src="hero-image.jpg" alt="Jimmy Turner - Video Editor">
             </div>
         </div>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Welcome To The Cinematic Realm Of Jimmy, Where Creativity Meets Technology To Craft Visually Stunning Narratives.
-           With A Passion For Storytelling And A Keen Eye For Detail, I Embark On A Journey To Transform Ordinary Footage into Extraordinary Visual Experiences.
+        <p>Welcome to the cinematic realm of Jimmy, where creativity meets technology to craft visually stunning narratives.
+           With a passion for storytelling and a keen eye for detail, I embark on a journey to transform ordinary footage into extraordinary visual experiences.
         </p>
         <div class="services">
-            <span>Podcast Edit</span>
-            <span>Vlogs Editing</span>
+            <span>Podcast Editing</span>
+            <span>Vlog Editing</span>
             <span>Cash Cow Editing</span>
             <span>Reels Editing</span>
         </div>
@@ -48,15 +48,24 @@
         <h2>My Best Edits</h2>
         <div class="video-gallery">
             <div class="video">
-                <video controls poster="cashcow.jpg"></video>
+                <video controls poster="cashcow.jpg">
+                    <source src="cashcow.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
                 <p>Cash Cow</p>
             </div>
             <div class="video">
-                <video controls poster="reel.jpg"></video>
+                <video controls poster="reel.jpg">
+                    <source src="reel.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
                 <p>Reel</p>
             </div>
             <div class="video">
-                <video controls poster="vlog.jpg"></video>
+                <video controls poster="vlog.jpg">
+                    <source src="vlog.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
                 <p>Vlog</p>
             </div>
         </div>
@@ -67,36 +76,36 @@
         <div class="testimonials">
             <div class="testimonial">
                 <h3>Marcus</h3>
-                <p>Perfect Communication And Exceptional Skills. This Guy Is King.</p>
+                <p>Perfect communication and exceptional skills. This guy is king.</p>
             </div>
             <div class="testimonial">
                 <h3>Peter</h3>
-                <p>Did A Great Job. Understood All The Requirements.</p>
+                <p>Did a great job. Understood all the requirements.</p>
             </div>
             <div class="testimonial">
                 <h3>Jane</h3>
-                <p>Jimmy Was Wonderful To Work With. Will Definitely Hire Him Again.</p>
+                <p>Jimmy was wonderful to work with. Will definitely hire him again.</p>
             </div>
         </div>
     </section>
 
     <section id="contact">
-        <h2>I Am Ready To Consult You</h2>
+        <h2>Let's Connect</h2>
         <form>
-            <input type="text" placeholder="My Name Is">
-            <input type="text" placeholder="I Am Interested In">
-            <textarea placeholder="Message"></textarea>
-            <button type="submit">Send</button>
+            <input type="text" placeholder="Your Name" required>
+            <input type="text" placeholder="I Am Interested In" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
         </form>
         <div class="contact-info">
             <p><strong>Phone:</strong> +92 455 478 112</p>
-            <p><strong>Address:</strong> Defense Phase 3, Lahore Pakistan</p>
+            <p><strong>Address:</strong> Defense Phase 3, Lahore, Pakistan</p>
             <p><strong>Email:</strong> videoeditor@gmail.com</p>
         </div>
     </section>
 
     <footer>
-        <a href="#top" class="go-top">Go Back To The Top</a>
+        <a href="#home" class="go-top">Go Back To Top</a>
     </footer>
 </body>
 </html>
